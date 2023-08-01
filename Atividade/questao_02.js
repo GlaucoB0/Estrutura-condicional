@@ -15,6 +15,9 @@ else if(nota3 >= 1 || nota3 <= 10){
 
 
 const nota4 = Number(prompt("Nota 4: "))
+if(nota4 > 10 || nota4 < 1){
+    alert("digite um numero de 1 a 10")}
+else if(nota4 >= 1 || nota4 <= 10){
 
 let media = (nota1 + nota2 + nota3 + nota4)/4
 
@@ -31,4 +34,5 @@ if (media >= 7 ) {
 }
 
 
+}
 
