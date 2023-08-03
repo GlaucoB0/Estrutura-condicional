@@ -1,31 +1,37 @@
-let bairro = prompt("Digite seu bairro: ")
+let bairro = prompt("Digite seu bairro: ").toUpperCase()
 
 switch (bairro) {
-    case "Antares" || "antares":
+    case "ANTARES":
         alert("R$7,00");
         break;
 
-    case "Barro Duro" || "barro duro" || "Barro duro":
+    case "BARRO DURO":
         alert("R$5,00");
         break;
 
-    case "Bebedouro" || "bebedouro":
+    case "BEBEDOURO":
         alert("R$8,00");
         break;
-
-    case "Benedito Bentes" || "Benedito bentes" || "benedito bentes" || "Benedito" || "benedito":
+        
+    case "BENEDITO BENTES" :
+    case "BIU" :
+    case "BENEDITO":
         alert("R$6,00")
         break;
 
-    case "Centro" || "centro":
+    case "CENTRO":
         alert("R$10,00");
         break;
 
-    case "Clima Bom" || "clima bom" || "Clima bom":
+    case "CLIMA BOM":
         alert("R$4,00");
         break;
     
-    case "Pajuçara" || "pajuçara" || "Pajucara" || "pajucara" || "Ponta Verde" || "ponta verde" || "Ponta verde" || "Jatiúca" || "jatiúca" || "Jatiuca" || "jatiuca":
+    case "PAJUCARA" :
+    case "PAJUÇARA" :
+    case "PONTA VERDE" :
+    case "JATIUCA" :
+    case "JATIÚCA":
         alert("R$15,00");
         break;
 
