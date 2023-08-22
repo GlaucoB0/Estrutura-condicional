@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robux Gratis</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        input{
+            width: 100px;
+        }
+
+        div#numb{
+            display: flex;
+            flex-direction: column;
+        }
+        p{
+            flex-direction: row;
+        }
+        #calcular{
+            color: white;
+            background-color: black;
+            border-radius: 20px;
+            height: 30px;
+            text-align: center;
+            padding: auto;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bhaskara</h1>
+    <div id="numb">
+        <p>A - <input type="number" name="" id="nA"> </p>
+        <p>B - <input type="number" name="" id="nB"> </p>
+        <p>C - <input type="number" name="" id="nC"> </p>
+        <input type="button" value="Calcular X" onclick="bask()" id="calcular">
+    </div>
+
+    <script>
+    
+    
+
+        function bask(){
+        A = document.getElementById("nA").value;
+        B = document.getElementById("nB").value;
+        C = document.getElementById("nC").value;    
+        console.log(`${A} ${B} ${C}`)
+    }
+    </script>
+</body>
+</html>
