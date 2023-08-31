@@ -3,6 +3,5 @@ do {
     document.write(i+`<br>`)
     f *= i
     i++
-    
 } while (i<=numero);
 document.write(`Fatorial do numero ${numero} é ${f}`)
