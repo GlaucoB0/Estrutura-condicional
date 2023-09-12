@@ -37,16 +37,17 @@
         <p>A - <input type="number" name="" id="nA"> </p>
         <p>B - <input type="number" name="" id="nB"> </p>
         <p>C - <input type="number" name="" id="nC"> </p>
-        <input type="button" value="Calcular X" onclick="bask(A, B, C)" id="calcular">
+        <input type="button" value="Calcular X" onclick="bask(a,b,c)" id="calcular">
     </div>
 
     <script>
-        A = document.getElementById("nA").value;
-        B = document.getElementById("nB").value;
-        C = document.getElementById("nC").value;
+        let a = document.getElementById("nA").value;
+        let b = document.getElementById("nB").value;
+        let c = document.getElementById("nC").value;
     
         function bask(A, B, C){
-        console.log(`${A} ${B} ${C}`)
+        let soma = A + B + C
+        console.log(soma)
     }
     </script>
 </body>
